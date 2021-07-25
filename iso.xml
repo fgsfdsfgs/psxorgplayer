@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <iso_project image_name="orgplay.iso">
+  <track type="data">
+    <identifiers
+      system      ="PLAYSTATION"
+      application ="PLAYSTATION"
+      volume      ="ORGPLAY"
+      volume_set  ="ORGPLAY"
+      publisher   ="FGSFDS"
+    />
+    <directory_tree>
+      <file name="system.cnf" type="data" source="system.cnf"/>
+      <file name="orgplay.exe" type="data" source="orgplay.exe"/>
+      <dir name="bnk" srcdir="data/bnk">
+        <file name="oside.bnk" type="data"/>
+        <file name="sfx.bnk" type="data"/>
+      </dir>
+      <dir name="org" srcdir="data/org">
+        <file name="oside.org" type="data"/>
+      </dir>
+      <dummy sectors="1024"/>
+    </directory_tree>
+  </track>
+  </iso_project>
+</xml>

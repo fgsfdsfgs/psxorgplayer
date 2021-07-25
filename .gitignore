@@ -1,0 +1,14 @@
+build
+data/*/*
+!data/bnk/sfx.bnk
+!data/bnk/oside.bnk
+!data/org/oside.org
+*.o
+*.elf
+*.exe
+*.iso
+*.psb
+*.bsp
+.vscode
+compile_flags.txt
+compile_commands.json
